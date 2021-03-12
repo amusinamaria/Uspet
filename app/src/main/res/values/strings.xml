@@ -1,0 +1,328 @@
+<resources>
+    <string name="app_name">Uspet</string>
+
+    <!--Titles-->
+    <string name="play">Играть</string>
+    <string name="noAchivki">Ачивок пока нет</string>
+
+    <!--Intro-->
+    <string name="introText1">Многие делают мечтой всей своей жизни то, что можно осуществить до конца этой недели.</string>
+    <string name="introText2">Время пошло!</string>
+    <string name="introText3">(На самом деле оно уже почти вышло).</string>
+    <string name="introText4">Я должен успеть!</string>
+
+    <string name="noMoreCards">Карточек больше нет</string>
+    <string name="replay">Сбросить ачивки \nи начать сначала?</string>
+
+    <!--CardsActivity-->
+
+    <string-array name="cardsArray">
+        <item>@string/koster</item>
+        <item>@string/kosterkey</item>
+        <item>@string/balans</item>
+        <item>@string/balanskey</item>
+        <item>@string/vodit</item>
+        <item>@string/voditkey</item>
+        <item>@string/knigu</item>
+        <item>@string/knigukey</item>
+        <item>@string/upast</item>
+        <item>@string/upastkey</item>
+        <item>@string/drevo</item>
+        <item>@string/drevokey</item>
+        <item>@string/shnurki</item>
+        <item>@string/shnurkikey</item>
+        <item>@string/shpagat</item>
+        <item>@string/shpagatkey</item>
+        <item>@string/limon</item>
+        <item>@string/limonkey</item>
+        <item>@string/snowboard</item>
+        <item>@string/snowboardkey</item>
+        <item>@string/temnote</item>
+        <item>@string/temnotekey</item>
+        <item>@string/prigke</item>
+        <item>@string/prigkekey</item>
+        <item>@string/pokrasit</item>
+        <item>@string/pokrasitkey</item>
+        <item>@string/odinochku</item>
+        <item>@string/odinochkukey</item>
+        <item>@string/givotnim</item>
+        <item>@string/givotnimkey</item>
+        <item>@string/plyage</item>
+        <item>@string/plyagekey</item>
+        <item>@string/chudom</item>
+        <item>@string/chudomkey</item>
+        <item>@string/perenochevat</item>
+        <item>@string/perenochevatkey</item>
+        <item>@string/handmade</item>
+        <item>@string/handmadekey</item>
+        <item>@string/obscheefoto</item>
+        <item>@string/obscheefotokey</item>
+        <item>@string/podstrichsya</item>
+        <item>@string/podstrichsyakey</item>
+        <item>@string/tulen</item>
+        <item>@string/tulenkey</item>
+        <item>@string/myauknut</item>
+        <item>@string/myauknutkey</item>
+        <item>@string/jonglirovat</item>
+        <item>@string/jonglirovatkey</item>
+        <item>@string/gitare</item>
+        <item>@string/gitarekey</item>
+        <item>@string/brokkoli</item>
+        <item>@string/brokkolikey</item>
+        <item>@string/avtostop</item>
+        <item>@string/avtostopkey</item>
+        <item>@string/tatu</item>
+        <item>@string/tatukey</item>
+    </string-array>
+
+
+    <!--Good-->
+    <string name="pervym">Первым признаться в любви</string>
+    <string name="pervymkey">pervym</string>
+    <string name="okean">Увидеть океан</string>
+    <string name="okeankey">okean</string>
+    <string name="vodit">Научиться водить машину</string>
+    <string name="voditkey">vodit</string>
+    <string name="koster">Спеть песню у костра</string>
+    <string name="kosterkey">koster</string>
+    <string name="balans">Покататься на балансборде</string>
+    <string name="balanskey">balans</string>
+    <string name="drevo">Составить свое генеалогическое древо</string>
+    <string name="drevokey">drevo</string>
+    <string name="limon">Выжать лимон вручную</string>
+    <string name="limonkey">limon</string>
+    <string name="snowboard">Покататься на сноуборде</string>
+    <string name="snowboardkey">snowboard</string>
+    <string name="perenochevat">Переночевать под открытым небом</string>
+    <string name="perenochevatkey">perenochevat</string>
+    <string name="temnote">Потанцевать в полной темноте</string>
+    <string name="temnotekey">temnote</string>
+    <string name="chudom">Чудом успеть на поезд или самолет</string>
+    <string name="chudomkey">chudom</string>
+    <string name="odinochku">Съездить в путешествие в одиночку</string>
+    <string name="odinochkukey">odinochku</string>
+    <string name="handmade">Продать свой хенд-мейд</string>
+    <string name="handmadekey">handmade</string>
+    <string name="pokrasit">Перекрасить волосы</string>
+    <string name="pokrasitkey">pokrasit</string>
+    <string name="givotnim">Сфотографироваться с животным</string>
+    <string name="givotnimkey">givotnim</string>
+    <string name="gitare">Поиграть на гитаре</string>
+    <string name="gitarekey">gitare</string>
+    <string name="jonglirovat">Научиться жонглировать тремя мячиками</string>
+    <string name="jonglirovatkey">jonglirovat</string>
+    <string name="brokkoli">Попробовать брокколи</string>
+    <string name="brokkolikey">brokkoli</string>
+    <string name="avtostop">Съездить куда-нибудь автостопом</string>
+    <string name="avtostopkey">avtostop</string>
+    <string name="myauknut">Мяукнуть коту в ответ</string>
+    <string name="myauknutkey">myauknut</string>
+    <string name="prigke">Сфотографировать друга в прыжке</string>
+    <string name="prigkekey">prigke</string>
+    <!--<string name="g10">Сделать массаж</string>-->
+    <!--<string name="g4">Прошептать «ты думаешь о том же, о чем и я?»</string>-->
+    <!--<string name="g14">Отправить бумажное письмо</string>-->
+    <!--<string name="g15">Случайно выбить страйк</string>-->
+    <!--<string name="g16">Полетать на чем-нибудь</string>-->
+    <!--<string name="g17">Спасти кому-то жизнь</string>-->
+    <!--<string name="g18">Посмотреть стриптиз</string>-->
+    <!--<string name="g19">Пожить за границей</string>-->
+    <!--<string name="g20">Взять на руки ребенка</string>-->
+    <!--<string name="g21">Научиться танцевать вальс</string>-->
+    <!--<string name="g22">Набрать свой е-мейл и пароль вслепую</string>-->
+    <!--<string name="g23">Пожить неделю в одиночестве</string>-->
+    <!--<string name="g24">Поработать волонтером</string>-->
+    <!--<string name="g25">Научиться есть палочками</string>-->
+    <!--<string name="g26">Подарить цветы без повода</string>-->
+    <!--<string name="g28">Сделать бумажный самолетик и кораблик</string>-->
+    <!--<string name="g30">Нарисовать рисунок в полной темноте</string>-->
+    <!--<string name="g31">Сварить борщ</string>-->
+    <!--<string name="g32">Послушать свой голос в записи</string>-->
+    <!--<string name="g33">Отсчитать ровно минуту, не смотря на часы</string>-->
+    <!--<string name="g34">Угадать, с каким счетом закончится игра</string>-->
+    <!--<string name="g35">Побывать на рок-концерте</string>-->
+    <!--<string name="g36">Съездить на рыбалку</string>-->
+    <!--<string name="g37">Прыгнуть с тарзанки</string>-->
+
+    <!--Bad-->
+    <string name="obscheefoto">Получиться хуже всех на общем фото</string>
+    <string name="obscheefotokey">obscheefoto</string>
+    <string name="knigu">Дочитать до конца неинтересную книгу</string>
+    <string name="knigukey">knigu</string>
+    <string name="upast">Упасть с велосипеда</string>
+    <string name="upastkey">upast</string>
+    <string name="plyage">Проснуться на пляже обгоревшим</string>
+    <string name="plyagekey">plyage</string>
+    <!--<string name="b5">Купить дорогую ненужную вещь</string>-->
+    <!--<string name="b6">Проспать целый день</string>-->
+    <!--<string name="b7">Подраться</string>-->
+    <!--<string name="b8">Неудачно влюбиться</string>-->
+    <!--<string name="b9">Обожраться фастфудом</string>-->
+    <!--<string name="b10">Оказаться на волосок от смерти</string>-->
+    <!--<string name="b11">Возненавидеть прежде любимую песню</string>-->
+    <!--<string name="b12">Получить нелепую травму</string>-->
+    <!--<string name="b13">Застрять в лифте</string>-->
+    <!--<string name="b14">Не отпраздновать свой день рождения</string>-->
+    <!--<string name="b15">Поворчать, что «в наше время такого не было»</string>-->
+    <!--<string name="b16">Не пройти фейс-контроль</string>-->
+    <!--<string name="b17">Начать бегать по утрам и бросить</string>-->
+    <!--<string name="b18">Быть покусанным кем-то</string>-->
+    <!--<string name="b19">Разбить любимую чашку</string>-->
+    <!--<string name="b20">Уйти из бара или кафе, не заплатив</string>-->
+    <!--<string name="b21">Выдать чей-то секрет</string>-->
+    <!--<string name="b22">Проиграть ребенку в снежки</string>-->
+    <!--<string name="b23">Заболеть в самый неподходящий момент</string>-->
+    <!--<string name="b24">Заблудиться в знакомом городе</string>-->
+    <!--<string name="b25">Соврать о своем возрасте</string>-->
+    <!--<string name="b26">Написать на заборе неприличные слова</string>-->
+    <!--<string name="b27">Разыграть кого-то по телефону</string>-->
+
+    <!--Strange-->
+    <string name="shnurki">Завязать шнурки языком</string>
+    <string name="shpagat">Сесть в шпагат</string>
+    <string name="shnurkikey">shnurki</string>
+    <string name="shpagatkey">shpagat</string>
+    <string name="tulen">Погладить тюленя</string>
+    <string name="tulenkey">tulen</string>
+    <string name="tatu">Сделать загадочную татуировку</string>
+    <string name="tatukey">tatu</string>
+    <string name="podstrichsya">Подстричься так, чтобы знакомые не узнали</string>
+    <string name="podstrichsyakey">podstrichsya</string>
+    <!--<string name="s3">Закинуть кеды на провода</string>-->
+    <!--<string name="s4">Мяукнуть коту в ответ</string>-->
+    <!--<string name="s5">Крикнуть что-нибудь в вентилятор</string>-->
+    <!--<string name="s7">Заснуть на лекции или совещании</string>-->
+    <!--<string name="s8">Написать стихи в стиле «…дождь,..ты не придешь»</string>-->
+    <!--<string name="s9">Увидеть галлюцинации</string>-->
+    <!--<string name="s10">Сутки не есть</string>-->
+    <!--<string name="s11">Подоить корову</string>-->
+    <!--<string name="s12">Почистить зубы левой рукой</string>-->
+    <!--<string name="s13">Погладить курсором фото любимого(-ой)</string>-->
+    <!--<string name="s14">Угнать тележку из супермаркета</string>-->
+    <!--<string name="s15">Прыгнуть в воду в одежде</string>-->
+    <!--<string name="s16">Лизнуть свой сосок</string>-->
+    <!--<string name="s17">Поспать вдвоем в одном спальнике</string>-->
+    <!--<string name="s18">Покататься на собаке верхом</string>-->
+    <!--<string name="s19">Забрать что-нибудь с помойки</string>-->
+    <!--<string name="s20">Спонтанно исчезнуть</string>-->
+    <!--<string name="s22">Выучить ругательства на иностранном языке</string>-->
+    <!--<string name="s23">Понять в чем смысл керлинга</string>-->
+    <!--<string name="s24">Спеть попсовую песню в караоке</string>-->
+    <!--<string name="s25">Понять в чем смысл жизни, но забыть</string>-->
+    <!--<string name="s26">Еле сдерживать смех на важном мероприятии</string>-->
+    <!--<string name="s27">Отметить Новый Год в необычном месте</string>-->
+    <!--<string name="s28">Провести больше часа перед зеркалом</string>-->
+    <!--<string name="s29">Притвориться манекеном в магазине</string>-->
+    <!--<string name="s30">Съесть чупа-чупс вдвоем</string>-->
+    <!--<string name="s31">Зевнуть с закрытым ртом</string>-->
+    <!--<string name="s32">Идти против эскалатора</string>-->
+    <!--<string name="s33">Представиться чужим именем</string>-->
+    <!--<string name="s34">Раздавить куриное яйцо в кулаке</string>-->
+    <!--<string name="s35">Почесать за ухом пальцем ноги</string>-->
+    <!--<string name="s36">Сделать селфи в ванной</string>-->
+    <!--<string name="s37">Надеть разные носки</string>-->
+    <!--<string name="s38">Попробовать собачий корм</string>-->
+    <!--<string name="s39">Сфотографировать себя голым</string>-->
+    <!--<string name="s40">Спеть в общественном  транспорте</string>-->
+
+
+    <!--Achivki-->
+
+    <string-array name="achivkiArray">
+        <item>@string/dlinnyyazik</item>
+        <item>@string/dlinnyyazikkey</item>
+        <item>@string/lakomka</item>
+        <item>@string/lakomkakey</item>
+        <item>@string/buntar</item>
+        <item>@string/buntarkey</item>
+        <item>@string/romantik</item>
+        <item>@string/romantikkey</item>
+        <item>@string/vezunchik</item>
+        <item>@string/vezunchikkey</item>
+        <item>@string/pereprosnuvshiysya</item>
+        <item>@string/pereprosnuvshiysyakey</item>
+        <!--<item>@string/zagadochniy</item>-->
+        <!--<item>@string/zagadochniykey</item>-->
+        <!--<item>@string/straschnenkiy</item>-->
+        <!--<item>@string/straschnenkiykey</item>-->
+    </string-array>
+
+    <string name="dlinnyyazik">Длинный язык</string>
+    <string name="dlinnyyazikkey">dlinnyyazik</string>
+    <string name="lakomka">Лакомка</string>
+    <string name="lakomkakey">lakomka</string>
+    <string name="buntar">Бунтарь</string>
+    <string name="buntarkey">buntar</string>
+    <string name="romantik">Романтик</string>
+    <string name="romantikkey">romantik</string>
+    <string name="vezunchik">Везунчик</string>
+    <string name="vezunchikkey">vezunchik</string>
+    <string name="pereprosnuvshiysya">Перепроснувшийся</string>
+    <string name="pereprosnuvshiysyakey">pereprosnuvshiysya</string>
+    <string name="zagadochniy">Загадочный</string>
+    <string name="zagadochniykey">zagadochniy</string>
+    <string name="straschnenkiy">Страшненький</string>
+    <string name="straschnenkiykey">straschnenkiy</string>
+
+    <string-array name="dlinnyyazik">
+        <item>@string/voditkey</item>
+        <item>@string/knigukey</item>
+    </string-array>
+
+    <string-array name="lakomka">
+        <item>@string/kosterkey</item>
+        <item>@string/balanskey</item>
+    </string-array>
+
+    <string-array name="buntar">
+        <item>@string/drevokey</item>
+        <item>@string/upastkey</item>
+    </string-array>
+
+    <string-array name="romantik">
+        <item>@string/shpagatkey</item>
+        <item>@string/shnurkikey</item>
+    </string-array>
+
+    <string-array name="pereprosnuvshiysya">
+        <item>@string/limonkey</item>
+        <item>@string/snowboardkey</item>
+    </string-array>
+
+    <string-array name="vezunchik">
+        <item>@string/temnotekey</item>
+        <item>@string/pokrasitkey</item>
+    </string-array>
+
+
+    <string-array name="dlinnyyazikdone">
+        <item> Научился водить машину</item>
+        <item>Дочитал до конца неинтересную книгу</item>
+    </string-array>
+
+    <string-array name="lakomkadone">
+        <item>Спел песню у костра</item>
+        <item>Покатался на балансборде</item>
+    </string-array>
+
+    <string-array name="buntardone">
+        <item>Составил свое генеалогическое древо</item>
+        <item>Упал с велосипеда</item>
+    </string-array>
+
+    <string-array name="romantikdone">
+        <item>Сел в шпагат</item>
+        <item>Завязал шнурки языком</item>
+    </string-array>
+
+    <string-array name="pereprosnuvshiysyadone">
+        <item>Выжал лимон вручную</item>
+        <item>Покатался на сноуборде</item>
+    </string-array>
+
+    <string-array name="vezunchikdone">
+        <item>Потанцевал в темноте</item>
+        <item>Перекрасил волосы</item>
+    </string-array>
+
+</resources>
